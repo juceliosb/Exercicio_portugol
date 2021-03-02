@@ -1,0 +1,21 @@
+programa 
+{ 
+	funcao inicio () 
+	{
+	    inteiro contador=0
+	    cadeia agenda[][]={
+	        {"João","São Paulo","(11)9999-5241"},
+	        {"Maria","Ribeirão Preto","(16)9999-8569"},
+	        {"Ana","Manaus","(92)99998574"}
+	    }
+	    
+	    faca{
+	        escreva(
+	            " Nome: " + agenda[contador][0] + 
+	            " Cidade: " + agenda[contador][1] + 
+	            " Telefone: " + agenda[contador][2]+ "\n")
+	            contador++
+	    }
+	    enquanto(contador<=2)
+	}
+}
